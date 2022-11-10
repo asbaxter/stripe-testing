@@ -34,6 +34,6 @@ app.post("/payment", cors(), async (req, res) => {
 	}
 })
 
-app.listen(process.env.PORT || 4000, () => {
-	console.log("Sever is listening on port 4000")
+app.listen(process.env.PORT || 4001, () => {
+	console.log("Sever is listening on port 4001")
 })
